@@ -8,7 +8,7 @@
 // @match        https://my.chsi.com.cn/archive/wap/gdjy/xj/detail.action*
 // @icon         https://t1.chei.com.cn/common/favicon.ico
 // @grant        none
-// @run-at       document-idle
+// @run-at       document-start
 // ==/UserScript==
 
 (function() {
@@ -22,7 +22,7 @@
         // 【模块一：总览页面配置】(对应 index.action)
         xj_1: {
             school: "杭州电子科技大学",                  // 第1个学籍：学校
-            // level: "普通全日制 本科",             // 第1个学籍：层次
+            level: "普通全日制 本科",             // 第1个学籍：层次
             // status: "2022-09-01 | 在籍（注册学籍）" // 第1个学籍：状态
         },
         // xj_2: {
